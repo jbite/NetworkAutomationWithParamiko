@@ -1,0 +1,27 @@
+# Python 虛擬環境 (最重要，避免上傳數千個依賴檔)
+venv/
+.venv/
+env/
+
+# Python 編譯暫存檔
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 轉檔產生的快取與模型 (Marker 會下載模型到此)
+.cache/
+
+# 資料下載與輸出 (通常不進 Git，除非你想備份)
+downloaded_pdfs/
+markdowned/
+pdf_fail.csv
+downloaded.txt
+*.log
+
+# 作業系統暫存檔
+.DS_Store
+Thumbs.db
+
+# 敏感資訊 (如果之後有寫 API Key)
+.env
+config.json
